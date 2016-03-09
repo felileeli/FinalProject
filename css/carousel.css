@@ -79,16 +79,9 @@ body {
   .clearfix();
 }
 
-.col-md-3 {
-  width: 20%vw;
-
-}
-
-.col-md-9{
-  width: 80%vw;
 }
 ul.nav-tabs {
-  width: 20px;
+  width: 50vw;
   margin-top: 20px;
   border-radius: 4px;
     background: #fff;
