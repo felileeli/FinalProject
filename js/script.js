@@ -1,7 +1,7 @@
 // This script demonstrates some simple things one can do with leaflet.js
 
 
-var map = L.map('map').setView([40.6881608,-73.9814856], 15);
+var map = L.map('map').setView([40.6881608,-73.9814856], 14);
 
 var CartoDBTiles = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png',{
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://stamen.com">Stamen</a>'
