@@ -196,7 +196,7 @@ function createLayerControls(){
 
 // add control
 
-
+L.Control.geocoder().addTo(map);
 
 var Icon = L.icon({
     iconUrl: 'images/hivenlogo2.png',
