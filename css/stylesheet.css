@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+#map {
+    height: 100vh;
+}
+
+.legend {
+    text-align:left;
+    line-height: 18px;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+svg .legendSvg0 { 
+    fill: #2b8cbe;
+    stroke: #2b8cbe;
+    stroke-opacity: 1; 
+    stroke-width: 1;
+    opacity: 0.9;
+}
+
+
+svg .legendSvg1 { 
+    fill: #542788;
+    stroke: #542788;
+    stroke-opacity: 1; 
+    stroke-width: 1;
+    opacity: 0.9;
+}
+
+svg .legendSvg2 { 
+    fill: #b35806;
+    stroke: #b35806;
+    stroke-opacity: 1; 
+    stroke-width: 1;
+    opacity: 0.9;
+}
+
+svg .legendSvg3 { 
+    fill: #e08214;
+    stroke: #e08214; 
+    stroke-width: 1;
+    opacity: 0.9;
+}
+.circle {
+	background-color:  #6f5499;
+}
