@@ -180,7 +180,7 @@ function createLayerControls(){
 
     // add in layer controls
     var baseMaps = {
-        "CartoDB": CartoDBTiles,
+        "Stamen Tiles": CartoDBTiles,
         "OSM Mapnik": OSMMapnikTiles,
         "Mapquest Aerial": MapQuestAerialTiles
     };
@@ -195,6 +195,8 @@ function createLayerControls(){
 }
 
 // add control
+
+L.Control.geocoder().addTo(map);
 
 var Icon = L.icon({
     iconUrl: 'images/hivenlogo2.png',
