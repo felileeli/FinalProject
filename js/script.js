@@ -167,8 +167,8 @@ legend.onAdd = function (map) {
             '<span><a href=\"geojson/pluto_part.geojson\">Download Pluto GeoJson Data</a><br />' +
             '<a href=\"geojson/NYC_business.geojson\">Download NYC MBE/WBE Businesses in Brooklyn (CSV)</a><br />' +
             '</span><br />' +
-            '<span>Data from the <a href=\"http://www.dec.ny.gov/chemical/90321.html\">NYCityPlanning</a><br />' + 
-            'Rainfall data from <a href=\"http://www.wunderground.com/weather/api\">OpenData</a></span><br />';
+            '<span>Data from the <a href=\"http://www1.nyc.gov/site/planning/index.page\">NYCityPlanning</a><br />' + 
+            'Business data from <a href=\"https://nycopendata.socrata.com\">OpenData</a></span><br />';
 
 ;
     return div;
